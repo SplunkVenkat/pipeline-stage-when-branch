@@ -6,7 +6,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                echo 'Building master'
+                echo 'Beuilding master'
             }
         }
         stage('Build Dev') {
